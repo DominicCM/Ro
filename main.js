@@ -5,8 +5,6 @@ const prefix = "~"
 bot.on('message', (message) => {
 //this is where my ping command starts.
 if(message.content == prefix + 'ping')
-   // message.channel.send('Getting paddle ready....'
-      //message.channel.send('Pong!').then(m => m.edit(`Took ${m.createdTimestamp - message.createdTimestamp} ms ${Math.round(bot.ping)} ms`))
 message.channel.send('Pong! Your ping is `' + `${Date.now() - message.createdTimestamp}` + ' ms`');
 //ping command ends here
 //the line below makes it so my bot ignores other bots
@@ -40,7 +38,7 @@ if(message.content == prefix + 'kickurself')
     message.reply('Thats something you have to do manually')
 
 if (message.content == prefix + 'kick')
-    message.channel.sendMessag(':x: NOPE')    
+    message.channel.send(':x: NOPE')    
 
 if (message.content == prefix + prefix + 'ban')
     message.channel.send(':x: NOPE')   
