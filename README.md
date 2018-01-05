@@ -22,4 +22,5 @@ The bot is created by three people:
 | Info | ?info |
 
 ## Features
-It has none
+It has none -NathIsEmortal
+Your mean -DominicCM
