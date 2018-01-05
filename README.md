@@ -20,3 +20,5 @@ The bot is created by three people:
 | Kick | ?kick |
 | Ban | ?ban |
 | Info | ?info |
+##Support
+join the discord server https://discord.gg/KJRM2Zv
