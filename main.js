@@ -3,8 +3,8 @@ const bot = new discord.Client();
 const prefix = "?"
 
 bot.on('message', (message) => {
-    if(message.content === prefix + 'ping') return message.channel.send(`Pong! Latency: ${Date.now() - message.createdTimestamp} ms`);
     if(message.author.bot) return;
+    if(message.content === prefix + 'ping') return message.channel.send(`Pong! Latency: ${Date.now() - message.createdTimestamp} ms`);
     if(message.content === prefix + 'help') return message.channel.send('ALL COMMANDS START WITH THE PREFIX ~ ping: a command that replies Pong! pingemortal: pings emortal. pingdominic: pings me the creator of the bot pingpotato: pings apeek.whoiscool: Says someone is cool! whatareyou: Tells you what i am.')
     if(message.content === prefix + 'whoiscool') return message.reply('Is cool (JK emortal is)')
     if(message.content ===  prefix + 'whatareyou') return message.reply('i am a bot. https://www.quora.com/What-is-a-discord-bot-What-is-a-discord-server')    
