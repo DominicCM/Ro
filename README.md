@@ -20,7 +20,3 @@ The bot is created by three people:
 | Kick | ?kick |
 | Ban | ?ban |
 | Info | ?info |
-
-## Features
-It has none -NathIsEmortal
-Your mean -DominicCM
